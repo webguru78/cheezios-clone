@@ -1,38 +1,115 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.bg
+{
+  background-color: #FFCB04;
+}
+.navbar-brand i
+{
+  font-size: 30px;
+  margin: 10px;
+  color: #E13D01;
+}
+.nav-item img
+{
+  width: 70px;
+  margin-left: 35px;
+}
+.icons i
+{
+  color: #E13D01;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+.slider img
+{
+  width: 400px;
+  margin: 30px 0;
+  border-radius: 20px;
+}
+
+.items
+{
+  margin: 20px 0;
+}
+.items h5
+{
+  font-size: 16px;
+  background-color: #EBF0F6;
+  padding: 15px;
+  border-radius: 25px;
   text-align: center;
+  font-weight: 700;
+  transition: 0.8s left;
+}
+.items h5:hover
+{
+  background-color: #FFCB04;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.starter
+{
+  margin: 5rem 0;
+}
+.starter 
+{
+  font-size: 18px;
+  background-color: #FFCB04;
+  color: black;
+  padding: 15px;
+  border-radius: 25px;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card
+{
+  background-color: white;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border: 1px solid white;
+  border-radius: 15px;
+  transition: 0.2s;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card:hover
+{
+  transform: translateY(-10px);
+  border: 2px solid #FFCB04;
+  border-radius: 15px;
+}
+#faq
+{
+  background-color: #FFCB04;
+  text-align: center;
+  margin: 6rem 0;
+  padding: 3rem;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.accordion
+{
+  margin: 2rem 0;
+}
+.accordion-button
+{
+  background-color: #665102;
   color: white;
+  font-size: 15px;
+  font-weight: 650;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.accordion-body
+{
+  background-color: #141000;
+  color: white;
+  padding: 1.5rem;
+  text-align: justify;
 }
